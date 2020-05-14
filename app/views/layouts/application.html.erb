@@ -40,11 +40,11 @@
           <div class="left-sidebar-content">
             <ul class="sidebar-elements" id="main-menu">
               <li class="divider">Menu</li>
-              <li class="<%= controller_name == 'categories' ? 'active' : '' %>">
-                <%= link_to 'Categories', categories_path  %>
-              </li>
               <li class="<%= controller_name == 'books' ? 'active' : '' %>">
                 <%= link_to 'Books', books_path  %>
+              </li>
+              <li class="<%= controller_name == 'categories' ? 'active' : '' %>">
+                <%= link_to 'Categories', categories_path  %>
               </li>
             </ul>
           </div>
