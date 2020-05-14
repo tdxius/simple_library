@@ -4,16 +4,25 @@
       <%= link_to 'Books', books_path %>
     </li>
     <li class="breadcrumb-item active">
-      New Book
+      <%= @book.name %>
     </li>
   </ol>
 </nav>
 
 <div class="card">
   <div class="card-header">
-    Create a Book
+    Book details
   </div>
   <div class="card-body">
-    <%= render 'books/partials/form' %>
+    <dl>
+      <dt>Name</dt>
+      <dd><%= @book.name %></dd>
+      <dt>Author</dt>
+      <dd><%= @book.author %></dd>
+      <dt>Year</dt>
+      <dd><%= @book.year %></dd>
+      <dt>Category</dt>
+      <dt><%= @book.category.name %></dt>
+    </dl>
   </div>
 </div>
