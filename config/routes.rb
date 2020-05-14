@@ -3,7 +3,7 @@ Rails.application.routes.draw do
       sessions: 'users/sessions',
   }
 
-  root 'categories#index', as: 'home'
+  root 'books#index', as: 'home'
 
   resources :categories
   resources :books
