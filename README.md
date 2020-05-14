@@ -4,6 +4,7 @@
 
 * Install Git
 * Install [Docker](https://www.docker.com/products/docker-desktop)
+* Install cmake
 
 ## Quick start:
 
