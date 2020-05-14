@@ -11,21 +11,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="66a6546b-a42c-4032-9b2e-56def106d4c6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/spec/features/books/create_spec.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spec/features/books/index_spec.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spec/features/books/update_spec.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spec/features/categories/create_spec.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spec/features/categories/index_spec.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spec/features/categories/update_spec.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/lib/material-design-icons/css/material-design-iconic-font.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/lib/material-design-icons/fonts/Material-Design-Iconic-Font.woff2" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/categories_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/categories_controller.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/views/books/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/books/index.html.erb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/views/categories/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/categories/index.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/database.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config/database.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spec/rails_helper.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/rails_helper.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spec/spec_helper.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/spec_helper.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/schema.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/schema.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,11 +70,6 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
-    <option name="width" value="1440" />
-    <option name="height" value="877" />
-  </component>
   <component name="ProjectId" id="1btaVl775kSEsnIqYoPwSf7l9Bk" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -92,16 +79,19 @@
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="database.console.LAST_STATE" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/spec/features" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/lib/material-design-icons/fonts" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Ruby" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public/lib/material-design-icons/fonts" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public/lib/material-design-icons/fonts" />
       <recent name="$PROJECT_DIR$/spec/features" />
       <recent name="$PROJECT_DIR$/spec/features/categories" />
       <recent name="$PROJECT_DIR$/spec/models" />
       <recent name="$PROJECT_DIR$/spec/factories" />
-      <recent name="$PROJECT_DIR$" />
     </key>
   </component>
   <component name="RunManager" selected="Docker.Dockerfile">
@@ -235,6 +225,7 @@
       <workItem from="1551625894833" duration="8181000" />
       <workItem from="1556042230593" duration="386000" />
       <workItem from="1589453901787" duration="21346000" />
+      <workItem from="1589486456316" duration="398000" />
     </task>
     <servers />
   </component>
@@ -251,6 +242,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="455" y="262" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1589477364102">
@@ -269,10 +261,10 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="427" y="202" width="586" height="518" key="find.popup/0.23.1440.877@0.23.1440.877" timestamp="1589484835595" />
-    <state x="385" y="213" width="670" height="676" key="search.everywhere.popup" timestamp="1589484839029">
+    <state x="385" y="213" width="670" height="676" key="search.everywhere.popup" timestamp="1589486830846">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="385" y="213" width="670" height="676" key="search.everywhere.popup/0.23.1440.877@0.23.1440.877" timestamp="1589484839029" />
+    <state x="385" y="213" width="670" height="676" key="search.everywhere.popup/0.23.1440.877@0.23.1440.877" timestamp="1589486830846" />
   </component>
   <component name="masterDetails">
     <states>

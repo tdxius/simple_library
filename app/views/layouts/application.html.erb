@@ -8,6 +8,8 @@
   <%= csrf_meta_tags %>
   <%= csp_meta_tag %>
 
+  <link rel="stylesheet" type="text/css" href="lib/material-design-icons/css/material-design-iconic-font.css">
+
   <%= javascript_include_tag 'application' %>
   <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
 </head>
@@ -18,7 +20,7 @@
     <div class="container-fluid">
       <div class="be-navbar-header">
         <a class="navbar-brand" href="index.html">
-          <i class="mdi mdi-airplane"></i> <%= t :APP_NAME %>
+          <i class="mdi mdi-book"></i> <%= t :APP_NAME %>
         </a>
       </div>
       <div class="be-right-navbar">

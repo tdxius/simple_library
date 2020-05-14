@@ -22,16 +22,24 @@
       </thead>
 
       <tbody>
-        <% @categories.each do |category| %>
+        <% if @categories.any? %>
+          <% @categories.each do |category| %>
+            <tr>
+              <td><%= category.name %></td>
+              <td><%= category.books.size %></td>
+              <td><%= category.created_at.strftime('%d. %m. %y') %></td>
+              <td>
+                <%= link_to 'Edit', edit_category_path(category), class: 'btn btn-warning' %>
+                <% if policy(category).destroy? %>
+                  <%= link_to 'Delete', category_path(category), method: :delete, data: { confirm: 'Are you sure?' }, class: 'btn btn-danger' %>
+                <% end %>
+              </td>
+            </tr>
+          <% end %>
+        <% else %>
           <tr>
-            <td><%= category.name %></td>
-            <td><%= category.books.size %></td>
-            <td><%= category.created_at.strftime('%d. %m. %y') %></td>
-            <td>
-              <%= link_to 'Edit', edit_category_path(category), class: 'btn btn-warning' %>
-              <% if policy(category).destroy? %>
-                <%= link_to 'Delete', category_path(category), method: :delete, data: { confirm: 'Are you sure?' }, class: 'btn btn-danger' %>
-              <% end %>
+            <td colspan="6" class="text-center">
+              No books yet.
             </td>
           </tr>
         <% end %>

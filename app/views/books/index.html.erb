@@ -24,16 +24,24 @@
       </thead>
 
       <tbody>
-        <% @books.each do |book| %>
+        <% if @books.any? %>
+          <% @books.each do |book| %>
+            <tr>
+              <td><%= book.name %></td>
+              <td><%= book.author %></td>
+              <td><%= book.year %></td>
+              <td><%= book.category.name %></td>
+              <td><%= book.created_at.strftime('%d. %m. %y') %></td>
+              <td>
+                <%= link_to 'Edit', edit_book_path(book), class: 'btn btn-warning' %>
+                <%= link_to 'Delete', book_path(book), method: :delete, data: { confirm: 'Are you sure?' }, class: 'btn btn-danger' %>
+              </td>
+            </tr>
+          <% end %>
+        <% else %>
           <tr>
-            <td><%= book.name %></td>
-            <td><%= book.author %></td>
-            <td><%= book.year %></td>
-            <td><%= book.category.name %></td>
-            <td><%= book.created_at.strftime('%d. %m. %y') %></td>
-            <td>
-              <%= link_to 'Edit', edit_book_path(book), class: 'btn btn-warning' %>
-              <%= link_to 'Delete', book_path(book), method: :delete, data: { confirm: 'Are you sure?' }, class: 'btn btn-danger' %>
+            <td colspan="6" class="text-center">
+              No books yet.
             </td>
           </tr>
         <% end %>
