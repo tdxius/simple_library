@@ -2,7 +2,7 @@ class CategoriesController < ApplicationController
   before_action :set_category
 
   def index
-    @categories = Category.includes(:books).paginate(page: params[:page])
+    @categories = Category.includes(:books).paginate(page: params[:page]).order('created_at DESC')
   end
 
   def new; end

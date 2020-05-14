@@ -11,11 +11,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="66a6546b-a42c-4032-9b2e-56def106d4c6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/spec/factories/book.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spec/models/book_spec.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spec/models/category_spec.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spec/features/books/create_spec.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spec/features/books/index_spec.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spec/features/books/update_spec.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spec/features/categories/create_spec.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spec/features/categories/index_spec.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spec/features/categories/update_spec.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spec/models/user_spec.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/categories_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/categories_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/books/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/books/index.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/categories/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/categories/index.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/database.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config/database.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spec/rails_helper.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/rails_helper.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spec/spec_helper.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/spec_helper.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,16 +92,16 @@
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="database.console.LAST_STATE" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/spec/models" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/spec/features" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Ruby" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/spec/features" />
+      <recent name="$PROJECT_DIR$/spec/features/categories" />
       <recent name="$PROJECT_DIR$/spec/models" />
       <recent name="$PROJECT_DIR$/spec/factories" />
       <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/app/policies" />
-      <recent name="$PROJECT_DIR$/app/views/shared" />
     </key>
   </component>
   <component name="RunManager" selected="Docker.Dockerfile">
@@ -224,7 +234,7 @@
       <workItem from="1551620351362" duration="486000" />
       <workItem from="1551625894833" duration="8181000" />
       <workItem from="1556042230593" duration="386000" />
-      <workItem from="1589453901787" duration="17451000" />
+      <workItem from="1589453901787" duration="21346000" />
     </task>
     <servers />
   </component>
@@ -255,14 +265,14 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="458" y="215" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1440.877@0.23.1440.877" timestamp="1589454067871" />
-    <state x="427" y="202" width="586" height="518" key="find.popup" timestamp="1589477564065">
+    <state x="427" y="202" width="586" height="518" key="find.popup" timestamp="1589484835595">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="427" y="202" width="586" height="518" key="find.popup/0.23.1440.877@0.23.1440.877" timestamp="1589477564065" />
-    <state x="385" y="213" width="670" height="676" key="search.everywhere.popup" timestamp="1589478489014">
+    <state x="427" y="202" width="586" height="518" key="find.popup/0.23.1440.877@0.23.1440.877" timestamp="1589484835595" />
+    <state x="385" y="213" width="670" height="676" key="search.everywhere.popup" timestamp="1589484839029">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="385" y="213" width="670" height="676" key="search.everywhere.popup/0.23.1440.877@0.23.1440.877" timestamp="1589478489014" />
+    <state x="385" y="213" width="670" height="676" key="search.everywhere.popup/0.23.1440.877@0.23.1440.877" timestamp="1589484839029" />
   </component>
   <component name="masterDetails">
     <states>

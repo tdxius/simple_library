@@ -21,19 +21,21 @@
         </tr>
       </thead>
 
-      <% @categories.each do |category| %>
-        <tr>
-          <td><%= category.name %></td>
-          <td><%= category.books.size %></td>
-          <td><%= category.created_at.strftime('%d. %m. %y') %></td>
-          <td>
-            <%= link_to 'Edit', edit_category_path(category), class: 'btn btn-warning' %>
-            <% if policy(category).destroy? %>
-              <%= link_to 'Delete', category_path(category), method: :delete, data: { confirm: 'Are you sure?' }, class: 'btn btn-danger' %>
-            <% end %>
-          </td>
-        </tr>
-      <% end %>
+      <tbody>
+        <% @categories.each do |category| %>
+          <tr>
+            <td><%= category.name %></td>
+            <td><%= category.books.size %></td>
+            <td><%= category.created_at.strftime('%d. %m. %y') %></td>
+            <td>
+              <%= link_to 'Edit', edit_category_path(category), class: 'btn btn-warning' %>
+              <% if policy(category).destroy? %>
+                <%= link_to 'Delete', category_path(category), method: :delete, data: { confirm: 'Are you sure?' }, class: 'btn btn-danger' %>
+              <% end %>
+            </td>
+          </tr>
+        <% end %>
+      </tbody>
     </table>
 
     <%= will_paginate @categories %>

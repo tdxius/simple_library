@@ -65,8 +65,13 @@ GEM
     chromedriver-helper (2.1.1)
       archive-zip (~> 0.10)
       nokogiri (~> 1.8)
+    coderay (1.1.2)
     concurrent-ruby (1.1.6)
     crass (1.0.6)
+    database_cleaner (1.8.5)
+    database_cleaner-active_record (1.8.0)
+      activerecord
+      database_cleaner (~> 1.8.0)
     devise (4.7.1)
       bcrypt (~> 3.0)
       orm_adapter (~> 0.1)
@@ -111,6 +116,12 @@ GEM
       mini_portile2 (~> 2.4.0)
     orm_adapter (0.5.0)
     pg (1.2.3)
+    pry (0.13.1)
+      coderay (~> 1.1)
+      method_source (~> 1.0)
+    pry-byebug (3.9.0)
+      byebug (~> 11.0)
+      pry (~> 0.13.0)
     public_suffix (4.0.5)
     puma (3.12.4)
     pundit (2.1.0)
@@ -227,11 +238,13 @@ DEPENDENCIES
   byebug
   capybara (>= 2.15)
   chromedriver-helper
+  database_cleaner-active_record
   devise
   factory_bot_rails
   faker
   listen (>= 3.0.5, < 3.2)
   pg
+  pry-byebug
   puma (~> 3.11)
   pundit
   rails (~> 5.2.2)

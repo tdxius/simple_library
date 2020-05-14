@@ -9,3 +9,10 @@ development:
   host: simple_library_postgres
   username: postgres
   password: test
+
+test:
+  <<: *default
+  database: test_simple_library
+  host: simple_library_postgres
+  username: postgres
+  password: test
