@@ -1,0 +1,13 @@
+<% unless object.errors.size.zero? %>
+  <div class="alert alert-danger alert-dismissible" role="alert">
+    <button class="close" type="button" data-dismiss="alert" aria-label="Close"><span class="mdi mdi-close" aria-hidden="true"></span></button>
+    <div class="icon"> <span class="mdi mdi-close-circle-o"></span></div>
+    <div class="message">
+      <ul>
+        <% object.errors.full_messages.each do |msg| %>
+          <li><%= msg %></li>
+        <% end %>
+      </ul>
+    </div>
+  </div>
+<% end %>

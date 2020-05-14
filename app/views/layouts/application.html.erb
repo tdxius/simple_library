@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title></title>
+
+  <%= csrf_meta_tags %>
+  <%= csp_meta_tag %>
+
+  <%= javascript_include_tag 'application' %>
+  <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+</head>
+<body>
+
+<div class="be-wrapper">
+  <nav class="navbar navbar-expand fixed-top be-top-header">
+    <div class="container-fluid">
+      <div class="be-navbar-header">
+        <a class="navbar-brand" href="index.html">
+          <i class="mdi mdi-airplane"></i> <%= t :APP_NAME %>
+        </a>
+      </div>
+      <div class="be-right-navbar">
+        <ul class="nav navbar-nav float-right be-user-nav">
+          <li class="nav-item">
+            <%= link_to 'Logout', destroy_user_session_path, method: :delete %>
+          </li>
+        </ul>
+        <div class="page-title" id="page-title"><span></span></div>
+      </div>
+    </div>
+  </nav>
+  <div class="be-left-sidebar">
+    <div class="left-sidebar-wrapper">
+      <div class="left-sidebar-spacer">
+        <div class="left-sidebar-scroll">
+          <div class="left-sidebar-content">
+            <ul class="sidebar-elements" id="main-menu">
+              <li class="divider">Menu</li>
+              <li class="<%= controller_name == 'categories' ? 'active' : '' %>">
+                <%= link_to 'Categories', categories_path  %>
+              </li>
+              <li class="<%= controller_name == 'books' ? 'active' : '' %>">
+                <%= link_to 'Books', books_path  %>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="be-content">
+    <div class="main-content container-fluid be-loading" id="main-content">
+      <%= yield %>
+    </div>
+  </div>
+</div>
+</body>
+</html>

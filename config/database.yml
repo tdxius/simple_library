@@ -1,0 +1,11 @@
+default: &default
+  adapter: postgresql
+  pool: 5
+  timeout: 5000
+
+development:
+  <<: *default
+  database: simple_library
+  host: simple_library_postgres
+  username: postgres
+  password: test
