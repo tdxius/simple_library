@@ -11,7 +11,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="66a6546b-a42c-4032-9b2e-56def106d4c6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spec/factories/book.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spec/models/book_spec.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spec/models/category_spec.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spec/models/user_spec.rb" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,16 +82,16 @@
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="database.console.LAST_STATE" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/spec/models" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Ruby" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/spec/models" />
+      <recent name="$PROJECT_DIR$/spec/factories" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/app/policies" />
       <recent name="$PROJECT_DIR$/app/views/shared" />
-      <recent name="$PROJECT_DIR$/app/views" />
-      <recent name="$PROJECT_DIR$/app/views/categories" />
     </key>
   </component>
   <component name="RunManager" selected="Docker.Dockerfile">
@@ -220,7 +224,7 @@
       <workItem from="1551620351362" duration="486000" />
       <workItem from="1551625894833" duration="8181000" />
       <workItem from="1556042230593" duration="386000" />
-      <workItem from="1589453901787" duration="16628000" />
+      <workItem from="1589453901787" duration="17451000" />
     </task>
     <servers />
   </component>
@@ -255,10 +259,10 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="427" y="202" width="586" height="518" key="find.popup/0.23.1440.877@0.23.1440.877" timestamp="1589477564065" />
-    <state x="385" y="213" width="670" height="676" key="search.everywhere.popup" timestamp="1589477819432">
+    <state x="385" y="213" width="670" height="676" key="search.everywhere.popup" timestamp="1589478489014">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="385" y="213" width="670" height="676" key="search.everywhere.popup/0.23.1440.877@0.23.1440.877" timestamp="1589477819432" />
+    <state x="385" y="213" width="670" height="676" key="search.everywhere.popup/0.23.1440.877@0.23.1440.877" timestamp="1589478489014" />
   </component>
   <component name="masterDetails">
     <states>
