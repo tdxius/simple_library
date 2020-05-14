@@ -2,7 +2,7 @@
 
 Quick start:
 
-* `git clone https://`
+* `git clone https://github.com/tdx996/simple_library.git`
 
 * `cp example.env .env`
 
